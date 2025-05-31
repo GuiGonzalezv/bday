@@ -7,7 +7,7 @@ import Clue4 from './views/FourthClue.vue'
 import Final from './views/Final.vue'
 
 const routes: RouteRecordRaw[] = [
-  { path: '/', name: 'Home', component: HomeView },
+  { path: '/bday', name: 'Home', component: HomeView },
   { path: '/clue1', name: 'Clue1', component: Clue1 },
   { path: '/clue2', name: 'Clue2', component: Clue2 },
   { path: '/clue3', name: 'Clue3', component: Clue3 },
